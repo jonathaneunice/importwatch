@@ -16,7 +16,7 @@ Installation
 
 Simple as::
     
-    $ pip install importwatch
+    $ pip install -U importwatch
 
 Or with easy_install::
 
@@ -32,7 +32,7 @@ Example
 =======
 
 >>> import importwatch
->>> importwatch.start()
+>>> importwatch.start(echo=True)
 >>> run_lots_of_code_which_imports_stuff()
 >>> # That's it!
 
